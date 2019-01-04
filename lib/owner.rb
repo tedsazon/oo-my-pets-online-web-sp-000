@@ -9,6 +9,9 @@ class Owner
     @@owners << self
   end
 
+  def self.count
+    @@owners.size
+  end
 
 
   def say_species
