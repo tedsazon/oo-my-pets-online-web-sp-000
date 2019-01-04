@@ -10,6 +10,7 @@ class Owner
   def initialize(species)
     @species = species
     @@all << self
+    @owners += 1
   end
 
   def say_species
