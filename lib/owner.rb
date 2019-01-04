@@ -45,4 +45,9 @@ class Owner
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
 
+  def walk_dogs
+    pets[:dogs]. each do |dog|
+      dog.mood = "happy"
+    end
+  end
 end
