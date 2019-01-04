@@ -10,7 +10,7 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def self.count
+  def self.all
     @@owners.size
   end
 
