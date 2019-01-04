@@ -3,6 +3,8 @@ class Owner
   attr_reader :say_species
   attr_writer
 
+  @@all = []
+
   def initialize(species)
     @species = species
   end
