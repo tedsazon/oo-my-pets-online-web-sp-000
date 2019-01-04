@@ -10,5 +10,9 @@ class Owner
     OWNERS << self
   end
 
+  def say_species
+    @species
+  end
+
 
 end
