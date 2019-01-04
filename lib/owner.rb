@@ -13,8 +13,5 @@ class Owner
     @owners += 1
   end
 
-  def say_species
-    @species
-  end
 
 end
