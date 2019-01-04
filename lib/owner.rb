@@ -11,7 +11,7 @@ class Owner
   end
 
   def self.all
-    @@owners.size
+    @@owners
   end
 
 
