@@ -16,6 +16,7 @@ class Owner
 
   def self.count
     @@owners.size
+  end
 
   def say_species
     "I am a #{species}."
