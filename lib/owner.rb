@@ -17,7 +17,7 @@ class Owner
   def self.reset_all
     OWNERS.clear
   end
-  
+
   def self.count
     OWNERS.size
   end
@@ -26,7 +26,7 @@ class Owner
     "I am a #{species}."
   end
 
-
+  def buy_fish(name)
 
 
 
